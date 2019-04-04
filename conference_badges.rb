@@ -29,5 +29,6 @@ def assign_rooms(arr)
 end
 
 def printer(arr)
-  
+  batch_badge_creator(arr).each |x|
+    puts x 
 end
