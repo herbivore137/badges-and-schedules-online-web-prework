@@ -13,12 +13,6 @@ def batch_badge_creator(arr)
 end
 
 def assign_rooms(arr)
-  
-  # to store a hash with name & index:
-#  hash = Hash.new
-#  arr.each_with_index |name, index|
-#    hash[name] = index + 1 
-  
   arr2 = []
   index = 0 
   arr.each do |x|
